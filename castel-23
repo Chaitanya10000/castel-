@@ -1,0 +1,32 @@
+//creating castle
+var castle = createSprite(200,200,200,150);
+castle.shapeColor = "#2d2d2d";
+
+var wall1 = createSprite(80,185,50,180);
+wall1.shapeColor = "#454545";
+
+var wall2 = createSprite(320,185,50,180);
+wall2.shapeColor = "#454545";
+
+var wall3 = createSprite(200,90,50,70);
+wall3.shapeColor = "#454545";
+
+var gate = createSprite(200,230,100,90);
+gate.shapeColor = "#903535";
+
+var flag = createSprite(115,62,10,10);
+flag.setAnimation("India");
+flag .scale = 0.4;
+
+var flag1 = createSprite(355,62,10,10);
+flag1.setAnimation("India");
+flag1 .scale = 0.4;
+
+var flag3 = createSprite(230,30,10,10);
+flag3.setAnimation("India");
+flag3.scale = 0.4;
+
+function draw() {
+  
+  drawSprites();
+}
